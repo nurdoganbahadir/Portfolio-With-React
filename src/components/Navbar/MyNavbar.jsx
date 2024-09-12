@@ -15,13 +15,25 @@ const MyNavbar = () => {
           >
             Home
           </NavLink>
-          <NavLink to={"/about"} className="nav-link">
+          <NavLink
+            to={"/about"}
+            className="nav-link"
+            style={({ isActive }) => ({ color: isActive && "red" })}
+          >
             About Me
           </NavLink>
-          <NavLink to={"/projects"} className="nav-link">
+          <NavLink
+            to={"/projects"}
+            className="nav-link"
+            style={({ isActive }) => ({ color: isActive && "red" })}
+          >
             My Projects
           </NavLink>
-          <NavLink to={"/contact"} className="nav-link">
+          <NavLink
+            to={"/contact"}
+            className="nav-link"
+            style={({ isActive }) => ({ color: isActive && "red" })}
+          >
             Contact
           </NavLink>
         </Nav>
