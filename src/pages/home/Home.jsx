@@ -1,8 +1,13 @@
+import Container from "react-bootstrap/Container";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <Container className="text-center text-light home-container">
+      <p>Hi! My Name is</p>
+      <h1 className="text-danger border-bottom p-2">Nurdoğan Bahadır</h1>
+      <p>Frontend Web Developer</p>
+    </Container>
+  );
+};
 
-export default Home
+export default Home;

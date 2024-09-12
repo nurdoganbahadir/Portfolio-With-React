@@ -3,3 +3,12 @@ body {
   background-image: url("./assets/images/background.jpg");
   background-size: cover;
 }
+
+/* HOME CSS */
+.home-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
