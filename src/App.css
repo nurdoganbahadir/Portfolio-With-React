@@ -28,3 +28,15 @@ body {
   transform: translate(-50%);
 }
 
+/*CARDS*/
+.btn:hover {
+  z-index: 10 !important;
+  background-color: rgba(255, 166, 0, 0.479) !important;
+}
+
+.contact-info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -15,9 +15,9 @@ const Projects = () => {
             lg={4}
             xl={3}
             key={index}
-            className="d-flex justify-content-center"
+            className="d-flex justify-content-center btn-div"
           >
-            <img src={item.image} alt={index} width={300} />
+            <img src={item.image} alt={index} width={300} className="btn"/>
           </Col>
         ))}
       </Row>
