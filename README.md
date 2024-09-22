@@ -4,7 +4,7 @@ This project was developed using React. In the project, react router is generall
 
 # Live Link of the Project
 
-
+[Click Me](https://portfolio-nurdoganbahadir.netlify.app)
 
 # Libraries and Technologies I use
 
@@ -33,5 +33,6 @@ and
 
 # How does my project look
 
+![Portfolio With React](./portfolio.gif)
 
 
